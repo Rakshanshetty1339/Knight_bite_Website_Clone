@@ -1,0 +1,403 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main-background{
+        background-image: url(./images/app-link-background.svg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;  
+    }
+
+    /*******   START NAV BAR  *******/
+
+    .logo img{
+        width: 250px;
+        height: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .nav{
+        background: rgba(0, 0, 0, 0.342); 
+        display: flex;
+        position: fixed;
+       justify-content:space-between;
+        align-items: center;
+        letter-spacing: 3px;
+        width:100vw;
+    }
+
+    .logo{
+        font-family:"Nunito";
+        color: white;
+    }
+    .link-nav{
+        display: flex;
+        gap: 50px;
+        margin-right: 60px;
+    }
+
+    .link-nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        transition:color 1s;
+
+    }
+    .link-nav a:hover{
+        color: rgb(132, 0, 255);
+    }
+
+    .link-nav li{
+        list-style: none;
+    }
+
+    /*******   END NAV BAR  *******/
+
+
+    .main-text h1{
+        font-family:cursive;
+        font-size:60px;
+        color: white;
+        padding-top: 30vh;
+        padding-bottom: 10px;
+        letter-spacing: 5px;
+        text-transform:uppercase;
+        text-align: center;
+        
+        }
+    .main-button button{
+        padding:12px;
+        font-size: 20px;
+        border-radius:10px;
+        background-color: rgb(224, 62, 116);
+        color: white;
+        border: 0px;
+        cursor: pointer;
+    }
+
+    .main-button{
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .ios-store{
+        background:url(./images/ios-store.svg);
+        width:205px;
+        height: 70px;
+        background-repeat: no-repeat;
+    }
+
+    .android-store{
+        background: url(./images/google-play-badge.svg);
+        width: 220px;
+        height: 70px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .app-button{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        gap: 50px;
+    }
+    
+
+    /*******   START FEATURES  *******/
+
+    .main-features h1{
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+        color: #424242;
+    }
+    .Features{
+        display:flex;
+        justify-content:space-evenly;
+        padding-top: 30px;
+        padding-bottom: 80px;
+
+    }
+    .features-contents{
+        text-align: center;
+    }
+    .features-contents p{
+        font-size: 18px;
+        padding:20px;
+        color: #424242;
+    }
+
+    .features-contents img{
+        width: 200px;
+    }
+
+     /*******   ENDS FEATURES  *******/
+
+     .banner-1{
+        background:url(./images/banner-1.webp);
+        width: 100%;
+        height: 150vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+
+     }
+
+     .banner-1 h1{
+       font-family:cursive;
+        font-size:70px;
+        color: white;
+        letter-spacing: 5px;
+        text-transform:uppercase;
+        text-align: center;
+        
+     }
+
+         .banner-2{
+        background:url(./images/banner-2.webp);
+        width: 100%;
+        height: 150vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-content: center;
+
+     }
+
+     .banner-2 h1{
+       font-family:cursive;
+        font-size:70px;
+        color: white;
+        letter-spacing: 5px;
+        text-transform:uppercase;
+        padding: 50px;
+        text-align: center;
+        
+     }
+
+     .menu{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+     }
+
+     .menu-button{
+        padding: 20px;
+        border: 2px solid white;
+        width: 100px;
+        border-radius: 50px;
+        color: white; 
+     }
+
+     .menu-button a{
+        text-decoration: none;
+        color: white;
+     }
+/***  contact us footer  starts***/
+
+     .footer-details{
+        padding-top: 10px;
+        padding-bottom: 50px;
+     }
+
+     .home-footer-head{
+        font-family: "Nunito";
+        color: #424242;
+        padding: 40px;
+        text-align: center;
+        font-size: 25px;
+     }
+
+     .contact-email{
+        background: url(./images/mail_icon.svg);
+        width: 100px;
+        height: 50px;
+        background-repeat: no-repeat;
+     }
+
+     .con-email{
+        display: flex;
+     }
+
+     .contact-phone{
+        background: url(./images/phone_icon.svg);
+        width: 100px;
+        height: 50px;
+        background-repeat: no-repeat;
+     }
+
+     .con-phone{
+        display: flex;
+     }
+    
+     .contact-us{
+        padding: 10px;
+        width: 300px;
+     }
+     .footer-items{
+        width: 300px;
+     }
+
+     .email-btn{
+        cursor: pointer;
+     }
+
+     .social-intagram{
+        background: url(./images/instagram.svg);
+        width: 100px;
+        height: 50px;
+        background-repeat: no-repeat;
+     }
+
+     .social-facebook{
+        background: url(./images/facebook.svg);
+        width: 100px;
+        height: 50px;
+        background-repeat: no-repeat;
+
+     }
+
+     .social-twitter{
+        background: url(./images/instagram.svg);
+        width: 100px;
+        height: 50px;
+        background-repeat: no-repeat;
+
+     }
+
+     .social-linkedin{
+        background: url(./images/linkedin.svg);
+        width: 100px;
+        height: 50px;
+        background-repeat: no-repeat;
+
+     }
+
+     .social-youtube{
+        background: url(./images/youtube.svg);
+        width: 100px;
+        height: 50px;
+        background-repeat: no-repeat;
+
+     }
+    .social-media{
+        display: flex;
+    }
+
+
+    .media{
+        transition:all 0.8s;
+    }
+
+
+    .media:hover{
+        transform: scale(1.2);
+    }
+
+    .links-list{
+        margin-left: 25px;
+    }
+
+    .links-list li:nth-child(2n){
+        color: red;
+    }
+    .links-list li:nth-child(1){
+        color: red;
+    }
+
+    .links-list a{
+        text-decoration: none;
+        color: red;
+
+    }
+
+    .footer-details{
+         display: grid;
+         grid-template-columns: auto auto auto;
+         width: 90vw;
+         margin: auto;
+         font-family: "Nunito";
+         color: #424242;
+    }
+
+    .footer-items h1{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .footer-items p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .footer-items span{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+     .footer-items li{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .footer-items{
+        width: 25vw;
+    }
+
+    .loc-lists{
+        display:grid;
+        grid-template-columns: auto auto;
+        margin-left:25px ;
+    }
+
+    .input-field input{
+        padding: 15px;
+        border-radius: 50px;
+        border: 3px solid  rgb(132, 0, 255);
+        margin-top: 15px;
+        font-size: 20px;
+        width:350px;   
+
+    }
+    .email-btn{
+        width: 70px;
+        height: 70px;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        border:none;
+        position: absolute;
+        left: 176.5vh;
+        top:512vh;
+        transition: all 0.5s;
+    }
+
+     .email-btn img{
+        width: 70px;
+        height: 70px;
+     }
+
+     .email-btn:hover{
+        transform: scale(1.1);
+     }
+
+    /** Main FOOTER    linear-gradient(90deg, #C77BF4 0%, #FF5672 100%)*/
+
+    .footer{
+        background-color: palevioletred;
+        text-align: center;
+        color:white;
+        padding: 15px;
+        font-family: "Nunito";
+        background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+        box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+    }
+
+
+
+
+
+
+
