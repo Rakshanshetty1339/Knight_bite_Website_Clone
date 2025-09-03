@@ -66,8 +66,7 @@ Knight-Bite-Clone/
 1. Clone the repo
 
    ```bash
-   git clone https://github.com/Rakshanshetty1339/Knight-Bite-Clone.git
-   ```
+   git clone https://github.com/Rakshanshetty1339/Knight_bite_Website_Clone.git
 2. Open the project folder
 3. Run `index.html` in your browser
 
