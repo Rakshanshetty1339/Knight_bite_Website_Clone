@@ -15,13 +15,16 @@
         padding-right: 100px;
     }
     .nav{
-        background: rgba(0, 0, 0, 0.342); 
+        background: rgba(63, 63, 63, 0.425);
+        backdrop-filter: blur(6px);
         display: flex;
         position: fixed;
        justify-content:space-between;
         align-items: center;
         letter-spacing: 3px;
-        width:100vw;
+        width:100%;
+        z-index: 10;
+        backdrop-filter: blur(5px);
     }
 
     .logo{
@@ -57,7 +60,6 @@
         display: grid;
         grid-template-columns: auto auto auto;
         padding: 150px 220px 0px;
-        width: 70vw;
         row-gap: 20px;
         column-gap: 50px;   
     }
@@ -108,4 +110,49 @@
         font-family: "Nunito";
         background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
         box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+    }
+
+
+    /** Media Query Starts*/
+    @media(max-width:576px) {
+
+        .nav{
+            display: flex;
+            flex-direction: column;
+        }
+        .link-nav{
+            gap:20px;
+            margin-right: 0px;  
+            padding-bottom: 10px;
+        }
+        .Menu{
+            display:grid;
+            grid-template-columns: auto auto;
+            padding: 150px 50px 0px;
+            row-gap: 0px;
+            column-gap:50px;  
+        }
+
+         .menu-items{
+            transform: scale(0.8);
+            text-align: center;
+         }
+         .menu-items:hover{
+            transform: scale(0.9);
+         }
+
+         .menu-bg{
+            background-size: cover;
+            height: 200%;
+         }
+        
+          .menu-items h1{
+            font-size: 25px;
+            padding-top: 10px;
+
+        }
+        .footer{
+            font-size: 14px;
+    }
+
     }
