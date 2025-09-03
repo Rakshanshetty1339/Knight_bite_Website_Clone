@@ -35,10 +35,10 @@ This project replicates the official **Knight Bite website** design with a **res
 ## 📸 Screenshots
 
 *Homepage Example:*
-![Homepage Screenshot](images/home.png)
+![Homepage Screenshot](images/Screenshot-Home page.gif)
 
 *Menu Page Example:*
-![Menu Screenshot](images/menu.png)
+![Menu Screenshot](images/Screenshot-Menu-Page.gif)
 
 ---
 
