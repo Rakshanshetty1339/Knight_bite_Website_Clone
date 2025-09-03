@@ -10,7 +10,7 @@
 A **clone of the Knight Bite website** built using **HTML, CSS, and JavaScript**.
 This project replicates the official **Knight Bite website** design with a **responsive UI** across devices.
 
-🔗 **[Live Demo Here](https://Rakshanshetty1339.github.io/Knight-Bite-Clone/)**
+🔗 **[Live Demo Here](https://rakshanshetty1339.github.io/Knight_bite_Website_Clone/)**
 
 ---
 
