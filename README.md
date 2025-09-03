@@ -2,10 +2,11 @@
 
 # 🍔 Knight Bite Website Clone
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Rakshanshetty1339/Knight-Bite-Clone)
-![GitHub last commit](https://img.shields.io/github/last-commit/Rakshanshetty1339/Knight-Bite-Clone)
-![GitHub stars](https://img.shields.io/github/stars/Rakshanshetty1339/Knight-Bite-Clone?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Rakshanshetty1339/Knight-Bite-Clone?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/Rakshanshetty1339/Knight_bite_Website_Clone)
+![GitHub last commit](https://img.shields.io/github/last-commit/Rakshanshetty1339/Knight_bite_Website_Clone)
+![GitHub stars](https://img.shields.io/github/stars/Rakshanshetty1339/Knight_bite_Website_Clone?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Rakshanshetty1339/Knight_bite_Website_Clone?style=social)
+
 
 A **clone of the Knight Bite website** built using **HTML, CSS, and JavaScript**.
 This project replicates the official **Knight Bite website** design with a **responsive UI** across devices.
