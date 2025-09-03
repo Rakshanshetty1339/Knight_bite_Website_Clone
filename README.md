@@ -1,5 +1,3 @@
-That’s awesome 👏 Since you already deployed it on **GitHub Pages**, let’s polish your README with a **direct demo link + badge**. Here’s the improved final version:
-
 ---
 
 # 🍔 Knight Bite Website Clone
